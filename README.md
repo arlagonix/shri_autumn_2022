@@ -111,7 +111,7 @@
   
   <tr>
     <td>7</td>
-    <td>Многопоточные&nbsp;вычисления</td>
+    <td>Многопоточные вычисления</td>
     <td align="center"><img src="https://img.shields.io/badge/-ВЫСОКАЯ-red?style=flat"></td>
     <td>
       <strong>Темы</strong>: Promise, структуры данных
