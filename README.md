@@ -39,8 +39,6 @@
     <td align="center"><code>1 / 1</code> ∙ <code>10</code></td>
   </tr>
   
-  <td colspan="10"></td>
-  
   <tr>
     <td>3</td>
     <td>Figma&nbsp;to&nbsp;HTML</td>
@@ -108,8 +106,6 @@
     </td>
     <td align="center"><code>10 / 12</code> ∙ <code>25</code></td>
   </tr>
-  
-  <td colspan="10"></td>
   
   <tr>
     <td>7</td>
