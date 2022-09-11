@@ -1,0 +1,1214 @@
+{
+    "document": {
+        "id": "0:0",
+        "name": "Document",
+        "type": "DOCUMENT",
+        "children": [
+            {
+                "id": "0:1",
+                "name": "ЗАДАЧА",
+                "type": "CANVAS",
+                "children": [
+                    {
+                        "id": "2:22",
+                        "name": "Карточка со списком товаров",
+                        "type": "FRAME",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            {
+                                "id": "2:79",
+                                "name": "Title",
+                                "type": "INSTANCE",
+                                "blendMode": "PASS_THROUGH",
+                                "children": [
+                                    {
+                                        "id": "I2:79;2:54",
+                                        "name": "Список товаров",
+                                        "type": "TEXT",
+                                        "blendMode": "PASS_THROUGH",
+                                        "absoluteBoundingBox": { "x": -544, "y": -377, "width": 142, "height": 22 },
+                                        "absoluteRenderBounds": {
+                                            "x": -542.9261474609375,
+                                            "y": -372.2698974609375,
+                                            "width": 139.77325439453125,
+                                            "height": 16.95172119140625
+                                        },
+                                        "constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+                                        "fills": [
+                                            {
+                                                "blendMode": "NORMAL",
+                                                "type": "SOLID",
+                                                "color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+                                            }
+                                        ],
+                                        "strokes": [],
+                                        "strokeWeight": 1,
+                                        "strokeAlign": "OUTSIDE",
+                                        "effects": [],
+                                        "characters": "Список товаров",
+                                        "style": {
+                                            "fontFamily": "Inter",
+                                            "fontPostScriptName": "Inter-Regular",
+                                            "fontWeight": 400,
+                                            "textAutoResize": "WIDTH_AND_HEIGHT",
+                                            "fontSize": 18,
+                                            "textAlignHorizontal": "LEFT",
+                                            "textAlignVertical": "TOP",
+                                            "letterSpacing": 0,
+                                            "lineHeightPx": 22,
+                                            "lineHeightPercent": 104.2962875366211,
+                                            "lineHeightPercentFontSize": 122.22222137451172,
+                                            "lineHeightUnit": "PIXELS"
+                                        },
+                                        "layoutVersion": 3,
+                                        "characterStyleOverrides": [],
+                                        "styleOverrideTable": {},
+                                        "lineTypes": ["NONE"],
+                                        "lineIndentations": [0]
+                                    }
+                                ],
+                                "absoluteBoundingBox": { "x": -544, "y": -377, "width": 142, "height": 22 },
+                                "absoluteRenderBounds": { "x": -544, "y": -377, "width": 142, "height": 22 },
+                                "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                                "layoutAlign": "INHERIT",
+                                "layoutGrow": 0,
+                                "clipsContent": false,
+                                "background": [
+                                    {
+                                        "blendMode": "NORMAL",
+                                        "visible": false,
+                                        "type": "SOLID",
+                                        "color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+                                    }
+                                ],
+                                "fills": [
+                                    {
+                                        "blendMode": "NORMAL",
+                                        "visible": false,
+                                        "type": "SOLID",
+                                        "color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+                                    }
+                                ],
+                                "strokes": [],
+                                "strokeWeight": 1,
+                                "strokeAlign": "INSIDE",
+                                "backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+                                "effects": [],
+                                "componentId": "2:55"
+                            },
+                            {
+                                "id": "2:24",
+                                "name": "Cards",
+                                "type": "FRAME",
+                                "blendMode": "PASS_THROUGH",
+                                "children": [
+                                    {
+                                        "id": "2:65",
+                                        "name": "Card",
+                                        "type": "INSTANCE",
+                                        "blendMode": "PASS_THROUGH",
+                                        "children": [
+                                            {
+                                                "id": "I2:65;2:38",
+                                                "name": "Image",
+                                                "type": "RECTANGLE",
+                                                "blendMode": "PASS_THROUGH",
+                                                "absoluteBoundingBox": {
+                                                    "x": -528,
+                                                    "y": -323,
+                                                    "width": 149,
+                                                    "height": 138
+                                                },
+                                                "absoluteRenderBounds": {
+                                                    "x": -528,
+                                                    "y": -323,
+                                                    "width": 149,
+                                                    "height": 138
+                                                },
+                                                "constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+                                                "layoutAlign": "STRETCH",
+                                                "layoutGrow": 1,
+                                                "fills": [
+                                                    {
+                                                        "blendMode": "NORMAL",
+                                                        "type": "SOLID",
+                                                        "color": {
+                                                            "r": 0.7686274647712708,
+                                                            "g": 0.7686274647712708,
+                                                            "b": 0.7686274647712708,
+                                                            "a": 1
+                                                        }
+                                                    }
+                                                ],
+                                                "strokes": [],
+                                                "strokeWeight": 1.149999976158142,
+                                                "strokeAlign": "INSIDE",
+                                                "effects": [],
+                                                "cornerRadius": 16
+                                            },
+                                            {
+                                                "id": "I2:65;2:59",
+                                                "name": "Button",
+                                                "type": "INSTANCE",
+                                                "blendMode": "PASS_THROUGH",
+                                                "children": [
+                                                    {
+                                                        "id": "I2:65;2:59;2:57",
+                                                        "name": "Купить",
+                                                        "type": "TEXT",
+                                                        "blendMode": "PASS_THROUGH",
+                                                        "absoluteBoundingBox": {
+                                                            "x": -474,
+                                                            "y": -159,
+                                                            "width": 41,
+                                                            "height": 15
+                                                        },
+                                                        "absoluteRenderBounds": {
+                                                            "x": -472.94317626953125,
+                                                            "y": -155.72727966308594,
+                                                            "width": 38.973358154296875,
+                                                            "height": 11.18182373046875
+                                                        },
+                                                        "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                                                        "layoutAlign": "INHERIT",
+                                                        "layoutGrow": 0,
+                                                        "fills": [
+                                                            {
+                                                                "blendMode": "NORMAL",
+                                                                "type": "SOLID",
+                                                                "color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+                                                            }
+                                                        ],
+                                                        "strokes": [],
+                                                        "strokeWeight": 1,
+                                                        "strokeAlign": "OUTSIDE",
+                                                        "effects": [],
+                                                        "characters": "Купить",
+                                                        "style": {
+                                                            "fontFamily": "Inter",
+                                                            "fontPostScriptName": null,
+                                                            "fontWeight": 400,
+                                                            "textAutoResize": "WIDTH_AND_HEIGHT",
+                                                            "fontSize": 12,
+                                                            "textAlignHorizontal": "LEFT",
+                                                            "textAlignVertical": "TOP",
+                                                            "letterSpacing": 0,
+                                                            "lineHeightPx": 15,
+                                                            "lineHeightPercent": 106.66667175292969,
+                                                            "lineHeightPercentFontSize": 125,
+                                                            "lineHeightUnit": "PIXELS"
+                                                        },
+                                                        "layoutVersion": 3,
+                                                        "characterStyleOverrides": [],
+                                                        "styleOverrideTable": {},
+                                                        "lineTypes": ["NONE"],
+                                                        "lineIndentations": [0]
+                                                    }
+                                                ],
+                                                "absoluteBoundingBox": {
+                                                    "x": -528,
+                                                    "y": -169,
+                                                    "width": 149,
+                                                    "height": 35
+                                                },
+                                                "absoluteRenderBounds": {
+                                                    "x": -528,
+                                                    "y": -169,
+                                                    "width": 149,
+                                                    "height": 35
+                                                },
+                                                "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                                                "layoutAlign": "INHERIT",
+                                                "layoutGrow": 0,
+                                                "clipsContent": false,
+                                                "background": [
+                                                    {
+                                                        "blendMode": "NORMAL",
+                                                        "type": "SOLID",
+                                                        "color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+                                                    }
+                                                ],
+                                                "fills": [
+                                                    {
+                                                        "blendMode": "NORMAL",
+                                                        "type": "SOLID",
+                                                        "color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+                                                    }
+                                                ],
+                                                "strokes": [],
+                                                "cornerRadius": 10,
+                                                "strokeWeight": 1,
+                                                "strokeAlign": "INSIDE",
+                                                "backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 1 },
+                                                "layoutMode": "HORIZONTAL",
+                                                "itemSpacing": 10,
+                                                "counterAxisAlignItems": "MAX",
+                                                "paddingLeft": 54,
+                                                "paddingRight": 54,
+                                                "paddingTop": 10,
+                                                "paddingBottom": 10,
+                                                "effects": [],
+                                                "componentId": "2:58"
+                                            }
+                                        ],
+                                        "absoluteBoundingBox": { "x": -544, "y": -339, "width": 181, "height": 221 },
+                                        "absoluteRenderBounds": { "x": -544, "y": -339, "width": 181, "height": 221 },
+                                        "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                                        "layoutAlign": "INHERIT",
+                                        "layoutGrow": 0,
+                                        "clipsContent": false,
+                                        "background": [
+                                            {
+                                                "blendMode": "NORMAL",
+                                                "type": "SOLID",
+                                                "color": {
+                                                    "r": 0.9708333611488342,
+                                                    "g": 0.9708333611488342,
+                                                    "b": 0.9708333611488342,
+                                                    "a": 1
+                                                }
+                                            }
+                                        ],
+                                        "fills": [
+                                            {
+                                                "blendMode": "NORMAL",
+                                                "type": "SOLID",
+                                                "color": {
+                                                    "r": 0.9708333611488342,
+                                                    "g": 0.9708333611488342,
+                                                    "b": 0.9708333611488342,
+                                                    "a": 1
+                                                }
+                                            }
+                                        ],
+                                        "strokes": [],
+                                        "cornerRadius": 24,
+                                        "strokeWeight": 1,
+                                        "strokeAlign": "INSIDE",
+                                        "backgroundColor": {
+                                            "r": 0.9708333611488342,
+                                            "g": 0.9708333611488342,
+                                            "b": 0.9708333611488342,
+                                            "a": 1
+                                        },
+                                        "layoutMode": "VERTICAL",
+                                        "itemSpacing": 16,
+                                        "primaryAxisSizingMode": "FIXED",
+                                        "paddingLeft": 16,
+                                        "paddingRight": 16,
+                                        "paddingTop": 16,
+                                        "paddingBottom": 16,
+                                        "effects": [],
+                                        "componentId": "2:41"
+                                    },
+                                    {
+                                        "id": "2:69",
+                                        "name": "Card",
+                                        "type": "INSTANCE",
+                                        "blendMode": "PASS_THROUGH",
+                                        "children": [
+                                            {
+                                                "id": "I2:69;2:38",
+                                                "name": "Image",
+                                                "type": "RECTANGLE",
+                                                "blendMode": "PASS_THROUGH",
+                                                "absoluteBoundingBox": {
+                                                    "x": -331,
+                                                    "y": -323,
+                                                    "width": 149,
+                                                    "height": 138
+                                                },
+                                                "absoluteRenderBounds": {
+                                                    "x": -331,
+                                                    "y": -323,
+                                                    "width": 149,
+                                                    "height": 138
+                                                },
+                                                "constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+                                                "layoutAlign": "STRETCH",
+                                                "layoutGrow": 1,
+                                                "fills": [
+                                                    {
+                                                        "blendMode": "NORMAL",
+                                                        "type": "SOLID",
+                                                        "color": {
+                                                            "r": 0.7686274647712708,
+                                                            "g": 0.7686274647712708,
+                                                            "b": 0.7686274647712708,
+                                                            "a": 1
+                                                        }
+                                                    }
+                                                ],
+                                                "strokes": [],
+                                                "strokeWeight": 1.149999976158142,
+                                                "strokeAlign": "INSIDE",
+                                                "effects": [],
+                                                "cornerRadius": 16
+                                            },
+                                            {
+                                                "id": "I2:69;2:59",
+                                                "name": "Button",
+                                                "type": "INSTANCE",
+                                                "blendMode": "PASS_THROUGH",
+                                                "children": [
+                                                    {
+                                                        "id": "I2:69;2:59;2:57",
+                                                        "name": "Купить",
+                                                        "type": "TEXT",
+                                                        "blendMode": "PASS_THROUGH",
+                                                        "absoluteBoundingBox": {
+                                                            "x": -277,
+                                                            "y": -159,
+                                                            "width": 41,
+                                                            "height": 15
+                                                        },
+                                                        "absoluteRenderBounds": {
+                                                            "x": -275.94317626953125,
+                                                            "y": -155.72727966308594,
+                                                            "width": 38.973358154296875,
+                                                            "height": 11.18182373046875
+                                                        },
+                                                        "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                                                        "layoutAlign": "INHERIT",
+                                                        "layoutGrow": 0,
+                                                        "fills": [
+                                                            {
+                                                                "blendMode": "NORMAL",
+                                                                "type": "SOLID",
+                                                                "color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+                                                            }
+                                                        ],
+                                                        "strokes": [],
+                                                        "strokeWeight": 1,
+                                                        "strokeAlign": "OUTSIDE",
+                                                        "effects": [],
+                                                        "characters": "Купить",
+                                                        "style": {
+                                                            "fontFamily": "Inter",
+                                                            "fontPostScriptName": null,
+                                                            "fontWeight": 400,
+                                                            "textAutoResize": "WIDTH_AND_HEIGHT",
+                                                            "fontSize": 12,
+                                                            "textAlignHorizontal": "LEFT",
+                                                            "textAlignVertical": "TOP",
+                                                            "letterSpacing": 0,
+                                                            "lineHeightPx": 15,
+                                                            "lineHeightPercent": 106.66667175292969,
+                                                            "lineHeightPercentFontSize": 125,
+                                                            "lineHeightUnit": "PIXELS"
+                                                        },
+                                                        "layoutVersion": 3,
+                                                        "characterStyleOverrides": [],
+                                                        "styleOverrideTable": {},
+                                                        "lineTypes": ["NONE"],
+                                                        "lineIndentations": [0]
+                                                    }
+                                                ],
+                                                "absoluteBoundingBox": {
+                                                    "x": -331,
+                                                    "y": -169,
+                                                    "width": 149,
+                                                    "height": 35
+                                                },
+                                                "absoluteRenderBounds": {
+                                                    "x": -331,
+                                                    "y": -169,
+                                                    "width": 149,
+                                                    "height": 35
+                                                },
+                                                "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                                                "layoutAlign": "INHERIT",
+                                                "layoutGrow": 0,
+                                                "clipsContent": false,
+                                                "background": [
+                                                    {
+                                                        "blendMode": "NORMAL",
+                                                        "type": "SOLID",
+                                                        "color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+                                                    }
+                                                ],
+                                                "fills": [
+                                                    {
+                                                        "blendMode": "NORMAL",
+                                                        "type": "SOLID",
+                                                        "color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+                                                    }
+                                                ],
+                                                "strokes": [],
+                                                "cornerRadius": 10,
+                                                "strokeWeight": 1,
+                                                "strokeAlign": "INSIDE",
+                                                "backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 1 },
+                                                "layoutMode": "HORIZONTAL",
+                                                "itemSpacing": 10,
+                                                "counterAxisAlignItems": "MAX",
+                                                "paddingLeft": 54,
+                                                "paddingRight": 54,
+                                                "paddingTop": 10,
+                                                "paddingBottom": 10,
+                                                "effects": [],
+                                                "componentId": "2:58"
+                                            }
+                                        ],
+                                        "absoluteBoundingBox": { "x": -347, "y": -339, "width": 181, "height": 221 },
+                                        "absoluteRenderBounds": { "x": -347, "y": -339, "width": 181, "height": 221 },
+                                        "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                                        "layoutAlign": "INHERIT",
+                                        "layoutGrow": 0,
+                                        "clipsContent": false,
+                                        "background": [
+                                            {
+                                                "blendMode": "NORMAL",
+                                                "type": "SOLID",
+                                                "color": {
+                                                    "r": 0.9708333611488342,
+                                                    "g": 0.9708333611488342,
+                                                    "b": 0.9708333611488342,
+                                                    "a": 1
+                                                }
+                                            }
+                                        ],
+                                        "fills": [
+                                            {
+                                                "blendMode": "NORMAL",
+                                                "type": "SOLID",
+                                                "color": {
+                                                    "r": 0.9708333611488342,
+                                                    "g": 0.9708333611488342,
+                                                    "b": 0.9708333611488342,
+                                                    "a": 1
+                                                }
+                                            }
+                                        ],
+                                        "strokes": [],
+                                        "cornerRadius": 24,
+                                        "strokeWeight": 1,
+                                        "strokeAlign": "INSIDE",
+                                        "backgroundColor": {
+                                            "r": 0.9708333611488342,
+                                            "g": 0.9708333611488342,
+                                            "b": 0.9708333611488342,
+                                            "a": 1
+                                        },
+                                        "layoutMode": "VERTICAL",
+                                        "itemSpacing": 16,
+                                        "primaryAxisSizingMode": "FIXED",
+                                        "paddingLeft": 16,
+                                        "paddingRight": 16,
+                                        "paddingTop": 16,
+                                        "paddingBottom": 16,
+                                        "effects": [],
+                                        "componentId": "2:41"
+                                    },
+                                    {
+                                        "id": "2:73",
+                                        "name": "Card",
+                                        "type": "INSTANCE",
+                                        "blendMode": "PASS_THROUGH",
+                                        "children": [
+                                            {
+                                                "id": "I2:73;2:38",
+                                                "name": "Image",
+                                                "type": "RECTANGLE",
+                                                "blendMode": "PASS_THROUGH",
+                                                "absoluteBoundingBox": {
+                                                    "x": -134,
+                                                    "y": -323,
+                                                    "width": 149,
+                                                    "height": 138
+                                                },
+                                                "absoluteRenderBounds": {
+                                                    "x": -134,
+                                                    "y": -323,
+                                                    "width": 149,
+                                                    "height": 138
+                                                },
+                                                "constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+                                                "layoutAlign": "STRETCH",
+                                                "layoutGrow": 1,
+                                                "fills": [
+                                                    {
+                                                        "blendMode": "NORMAL",
+                                                        "type": "SOLID",
+                                                        "color": {
+                                                            "r": 0.7686274647712708,
+                                                            "g": 0.7686274647712708,
+                                                            "b": 0.7686274647712708,
+                                                            "a": 1
+                                                        }
+                                                    }
+                                                ],
+                                                "strokes": [],
+                                                "strokeWeight": 1.149999976158142,
+                                                "strokeAlign": "INSIDE",
+                                                "effects": [],
+                                                "cornerRadius": 16
+                                            },
+                                            {
+                                                "id": "I2:73;2:59",
+                                                "name": "Button",
+                                                "type": "INSTANCE",
+                                                "blendMode": "PASS_THROUGH",
+                                                "children": [
+                                                    {
+                                                        "id": "I2:73;2:59;2:57",
+                                                        "name": "Купить",
+                                                        "type": "TEXT",
+                                                        "blendMode": "PASS_THROUGH",
+                                                        "absoluteBoundingBox": {
+                                                            "x": -80,
+                                                            "y": -159,
+                                                            "width": 41,
+                                                            "height": 15
+                                                        },
+                                                        "absoluteRenderBounds": {
+                                                            "x": -78.94318389892578,
+                                                            "y": -155.72727966308594,
+                                                            "width": 38.97336959838867,
+                                                            "height": 11.18182373046875
+                                                        },
+                                                        "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                                                        "layoutAlign": "INHERIT",
+                                                        "layoutGrow": 0,
+                                                        "fills": [
+                                                            {
+                                                                "blendMode": "NORMAL",
+                                                                "type": "SOLID",
+                                                                "color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+                                                            }
+                                                        ],
+                                                        "strokes": [],
+                                                        "strokeWeight": 1,
+                                                        "strokeAlign": "OUTSIDE",
+                                                        "effects": [],
+                                                        "characters": "Купить",
+                                                        "style": {
+                                                            "fontFamily": "Inter",
+                                                            "fontPostScriptName": null,
+                                                            "fontWeight": 400,
+                                                            "textAutoResize": "WIDTH_AND_HEIGHT",
+                                                            "fontSize": 12,
+                                                            "textAlignHorizontal": "LEFT",
+                                                            "textAlignVertical": "TOP",
+                                                            "letterSpacing": 0,
+                                                            "lineHeightPx": 15,
+                                                            "lineHeightPercent": 106.66667175292969,
+                                                            "lineHeightPercentFontSize": 125,
+                                                            "lineHeightUnit": "PIXELS"
+                                                        },
+                                                        "layoutVersion": 3,
+                                                        "characterStyleOverrides": [],
+                                                        "styleOverrideTable": {},
+                                                        "lineTypes": ["NONE"],
+                                                        "lineIndentations": [0]
+                                                    }
+                                                ],
+                                                "absoluteBoundingBox": {
+                                                    "x": -134,
+                                                    "y": -169,
+                                                    "width": 149,
+                                                    "height": 35
+                                                },
+                                                "absoluteRenderBounds": {
+                                                    "x": -134,
+                                                    "y": -169,
+                                                    "width": 149,
+                                                    "height": 35
+                                                },
+                                                "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                                                "layoutAlign": "INHERIT",
+                                                "layoutGrow": 0,
+                                                "clipsContent": false,
+                                                "background": [
+                                                    {
+                                                        "blendMode": "NORMAL",
+                                                        "type": "SOLID",
+                                                        "color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+                                                    }
+                                                ],
+                                                "fills": [
+                                                    {
+                                                        "blendMode": "NORMAL",
+                                                        "type": "SOLID",
+                                                        "color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+                                                    }
+                                                ],
+                                                "strokes": [],
+                                                "cornerRadius": 10,
+                                                "strokeWeight": 1,
+                                                "strokeAlign": "INSIDE",
+                                                "backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 1 },
+                                                "layoutMode": "HORIZONTAL",
+                                                "itemSpacing": 10,
+                                                "counterAxisAlignItems": "MAX",
+                                                "paddingLeft": 54,
+                                                "paddingRight": 54,
+                                                "paddingTop": 10,
+                                                "paddingBottom": 10,
+                                                "effects": [],
+                                                "componentId": "2:58"
+                                            }
+                                        ],
+                                        "absoluteBoundingBox": { "x": -150, "y": -339, "width": 181, "height": 221 },
+                                        "absoluteRenderBounds": { "x": -150, "y": -339, "width": 181, "height": 221 },
+                                        "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                                        "layoutAlign": "INHERIT",
+                                        "layoutGrow": 0,
+                                        "clipsContent": false,
+                                        "background": [
+                                            {
+                                                "blendMode": "NORMAL",
+                                                "type": "SOLID",
+                                                "color": {
+                                                    "r": 0.9708333611488342,
+                                                    "g": 0.9708333611488342,
+                                                    "b": 0.9708333611488342,
+                                                    "a": 1
+                                                }
+                                            }
+                                        ],
+                                        "fills": [
+                                            {
+                                                "blendMode": "NORMAL",
+                                                "type": "SOLID",
+                                                "color": {
+                                                    "r": 0.9708333611488342,
+                                                    "g": 0.9708333611488342,
+                                                    "b": 0.9708333611488342,
+                                                    "a": 1
+                                                }
+                                            }
+                                        ],
+                                        "strokes": [],
+                                        "cornerRadius": 24,
+                                        "strokeWeight": 1,
+                                        "strokeAlign": "INSIDE",
+                                        "backgroundColor": {
+                                            "r": 0.9708333611488342,
+                                            "g": 0.9708333611488342,
+                                            "b": 0.9708333611488342,
+                                            "a": 1
+                                        },
+                                        "layoutMode": "VERTICAL",
+                                        "itemSpacing": 16,
+                                        "primaryAxisSizingMode": "FIXED",
+                                        "paddingLeft": 16,
+                                        "paddingRight": 16,
+                                        "paddingTop": 16,
+                                        "paddingBottom": 16,
+                                        "effects": [],
+                                        "componentId": "2:41"
+                                    }
+                                ],
+                                "absoluteBoundingBox": { "x": -544, "y": -339, "width": 575, "height": 221 },
+                                "absoluteRenderBounds": { "x": -544, "y": -339, "width": 575, "height": 221 },
+                                "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                                "layoutAlign": "STRETCH",
+                                "layoutGrow": 0,
+                                "clipsContent": false,
+                                "background": [
+                                    {
+                                        "blendMode": "NORMAL",
+                                        "visible": false,
+                                        "type": "SOLID",
+                                        "color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+                                    }
+                                ],
+                                "fills": [
+                                    {
+                                        "blendMode": "NORMAL",
+                                        "visible": false,
+                                        "type": "SOLID",
+                                        "color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+                                    }
+                                ],
+                                "strokes": [],
+                                "strokeWeight": 1,
+                                "strokeAlign": "INSIDE",
+                                "backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+                                "layoutMode": "HORIZONTAL",
+                                "itemSpacing": 16,
+                                "primaryAxisSizingMode": "FIXED",
+                                "effects": []
+                            }
+                        ],
+                        "absoluteBoundingBox": { "x": -560, "y": -393, "width": 607, "height": 291 },
+                        "absoluteRenderBounds": { "x": -560, "y": -393, "width": 607, "height": 291 },
+                        "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                        "clipsContent": false,
+                        "background": [
+                            { "blendMode": "NORMAL", "type": "SOLID", "color": { "r": 1, "g": 1, "b": 1, "a": 1 } }
+                        ],
+                        "fills": [
+                            { "blendMode": "NORMAL", "type": "SOLID", "color": { "r": 1, "g": 1, "b": 1, "a": 1 } }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 1,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 1 },
+                        "layoutMode": "VERTICAL",
+                        "itemSpacing": 16,
+                        "paddingLeft": 16,
+                        "paddingRight": 16,
+                        "paddingTop": 16,
+                        "paddingBottom": 16,
+                        "exportSettings": [
+                            { "suffix": "", "format": "PNG", "constraint": { "type": "SCALE", "value": 2 } }
+                        ],
+                        "effects": []
+                    }
+                ],
+                "backgroundColor": {
+                    "r": 0.9607843160629272,
+                    "g": 0.9607843160629272,
+                    "b": 0.9607843160629272,
+                    "a": 1
+                },
+                "prototypeStartNodeID": null,
+                "flowStartingPoints": [],
+                "prototypeDevice": { "type": "NONE", "rotation": "NONE" }
+            },
+            {
+                "id": "3:81",
+                "name": "———————",
+                "type": "CANVAS",
+                "children": [],
+                "backgroundColor": {
+                    "r": 0.9607843160629272,
+                    "g": 0.9607843160629272,
+                    "b": 0.9607843160629272,
+                    "a": 1
+                },
+                "prototypeStartNodeID": null,
+                "flowStartingPoints": [],
+                "prototypeDevice": { "type": "NONE", "rotation": "NONE" }
+            },
+            {
+                "id": "3:82",
+                "name": "ЧТО ДОЛЖНО ПОЛУЧИТЬСЯ?",
+                "type": "CANVAS",
+                "children": [
+                    {
+                        "id": "3:89",
+                        "name": "MacBook 16' — Safari",
+                        "type": "RECTANGLE",
+                        "blendMode": "PASS_THROUGH",
+                        "absoluteBoundingBox": { "x": -1652, "y": -1432, "width": 1806, "height": 1130 },
+                        "absoluteRenderBounds": { "x": -1652, "y": -1432, "width": 1806, "height": 1130 },
+                        "preserveRatio": true,
+                        "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                        "fills": [
+                            {
+                                "blendMode": "NORMAL",
+                                "type": "IMAGE",
+                                "scaleMode": "FILL",
+                                "imageRef": "32c173d8ea22591194343580dabf4a7c25531e40"
+                            }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 1,
+                        "strokeAlign": "INSIDE",
+                        "effects": []
+                    }
+                ],
+                "backgroundColor": {
+                    "r": 0.9607843160629272,
+                    "g": 0.9607843160629272,
+                    "b": 0.9607843160629272,
+                    "a": 1
+                },
+                "prototypeStartNodeID": null,
+                "flowStartingPoints": [],
+                "prototypeDevice": { "type": "NONE", "rotation": "NONE" }
+            },
+            {
+                "id": "3:84",
+                "name": "———————",
+                "type": "CANVAS",
+                "children": [],
+                "backgroundColor": {
+                    "r": 0.9607843160629272,
+                    "g": 0.9607843160629272,
+                    "b": 0.9607843160629272,
+                    "a": 1
+                },
+                "prototypeStartNodeID": null,
+                "flowStartingPoints": [],
+                "prototypeDevice": { "type": "NONE", "rotation": "NONE" }
+            },
+            {
+                "id": "1:2",
+                "name": "КОМПОНЕНТЫ",
+                "type": "CANVAS",
+                "children": [
+                    {
+                        "id": "2:55",
+                        "name": "Title",
+                        "type": "COMPONENT",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            {
+                                "id": "2:54",
+                                "name": "Список товаров",
+                                "type": "TEXT",
+                                "blendMode": "PASS_THROUGH",
+                                "absoluteBoundingBox": { "x": -769, "y": -310, "width": 142, "height": 22 },
+                                "absoluteRenderBounds": {
+                                    "x": -767.9261474609375,
+                                    "y": -305.2698974609375,
+                                    "width": 139.77325439453125,
+                                    "height": 16.95172119140625
+                                },
+                                "constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+                                "fills": [
+                                    {
+                                        "blendMode": "NORMAL",
+                                        "type": "SOLID",
+                                        "color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+                                    }
+                                ],
+                                "strokes": [],
+                                "strokeWeight": 1,
+                                "strokeAlign": "OUTSIDE",
+                                "effects": [],
+                                "characters": "Список товаров",
+                                "style": {
+                                    "fontFamily": "Inter",
+                                    "fontPostScriptName": null,
+                                    "fontWeight": 400,
+                                    "textAutoResize": "WIDTH_AND_HEIGHT",
+                                    "fontSize": 18,
+                                    "textAlignHorizontal": "LEFT",
+                                    "textAlignVertical": "TOP",
+                                    "letterSpacing": 0,
+                                    "lineHeightPx": 22,
+                                    "lineHeightPercent": 104.2962875366211,
+                                    "lineHeightPercentFontSize": 122.22222137451172,
+                                    "lineHeightUnit": "PIXELS"
+                                },
+                                "layoutVersion": 3,
+                                "characterStyleOverrides": [],
+                                "styleOverrideTable": {},
+                                "lineTypes": ["NONE"],
+                                "lineIndentations": [0]
+                            }
+                        ],
+                        "absoluteBoundingBox": { "x": -769, "y": -310, "width": 142, "height": 22 },
+                        "absoluteRenderBounds": { "x": -769, "y": -310, "width": 142, "height": 22 },
+                        "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                        "clipsContent": false,
+                        "background": [
+                            {
+                                "blendMode": "NORMAL",
+                                "visible": false,
+                                "type": "SOLID",
+                                "color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+                            }
+                        ],
+                        "fills": [
+                            {
+                                "blendMode": "NORMAL",
+                                "visible": false,
+                                "type": "SOLID",
+                                "color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+                            }
+                        ],
+                        "strokes": [],
+                        "strokeWeight": 1,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 0 },
+                        "effects": []
+                    },
+                    {
+                        "id": "2:41",
+                        "name": "Card",
+                        "type": "COMPONENT",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            {
+                                "id": "2:38",
+                                "name": "Image",
+                                "type": "RECTANGLE",
+                                "blendMode": "PASS_THROUGH",
+                                "absoluteBoundingBox": { "x": -759, "y": -221, "width": 149, "height": 138 },
+                                "absoluteRenderBounds": { "x": -759, "y": -221, "width": 149, "height": 138 },
+                                "constraints": { "vertical": "SCALE", "horizontal": "SCALE" },
+                                "layoutAlign": "STRETCH",
+                                "layoutGrow": 1,
+                                "fills": [
+                                    {
+                                        "blendMode": "NORMAL",
+                                        "type": "SOLID",
+                                        "color": {
+                                            "r": 0.7686274647712708,
+                                            "g": 0.7686274647712708,
+                                            "b": 0.7686274647712708,
+                                            "a": 1
+                                        }
+                                    }
+                                ],
+                                "strokes": [],
+                                "strokeWeight": 1.149999976158142,
+                                "strokeAlign": "INSIDE",
+                                "effects": [],
+                                "cornerRadius": 16
+                            },
+                            {
+                                "id": "2:59",
+                                "name": "Button",
+                                "type": "INSTANCE",
+                                "blendMode": "PASS_THROUGH",
+                                "children": [
+                                    {
+                                        "id": "I2:59;2:57",
+                                        "name": "Купить",
+                                        "type": "TEXT",
+                                        "blendMode": "PASS_THROUGH",
+                                        "absoluteBoundingBox": { "x": -705, "y": -57, "width": 41, "height": 15 },
+                                        "absoluteRenderBounds": {
+                                            "x": -703.9431762695312,
+                                            "y": -53.727272033691406,
+                                            "width": 38.973388671875,
+                                            "height": 11.181816101074219
+                                        },
+                                        "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                                        "layoutAlign": "INHERIT",
+                                        "layoutGrow": 0,
+                                        "fills": [
+                                            {
+                                                "blendMode": "NORMAL",
+                                                "type": "SOLID",
+                                                "color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+                                            }
+                                        ],
+                                        "strokes": [],
+                                        "strokeWeight": 1,
+                                        "strokeAlign": "OUTSIDE",
+                                        "effects": [],
+                                        "characters": "Купить",
+                                        "style": {
+                                            "fontFamily": "Inter",
+                                            "fontPostScriptName": null,
+                                            "fontWeight": 400,
+                                            "textAutoResize": "WIDTH_AND_HEIGHT",
+                                            "fontSize": 12,
+                                            "textAlignHorizontal": "LEFT",
+                                            "textAlignVertical": "TOP",
+                                            "letterSpacing": 0,
+                                            "lineHeightPx": 15,
+                                            "lineHeightPercent": 106.66667175292969,
+                                            "lineHeightPercentFontSize": 125,
+                                            "lineHeightUnit": "PIXELS"
+                                        },
+                                        "layoutVersion": 3,
+                                        "characterStyleOverrides": [],
+                                        "styleOverrideTable": {},
+                                        "lineTypes": ["NONE"],
+                                        "lineIndentations": [0]
+                                    }
+                                ],
+                                "absoluteBoundingBox": { "x": -759, "y": -67, "width": 149, "height": 35 },
+                                "absoluteRenderBounds": { "x": -759, "y": -67, "width": 149, "height": 35 },
+                                "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                                "layoutAlign": "INHERIT",
+                                "layoutGrow": 0,
+                                "clipsContent": false,
+                                "background": [
+                                    {
+                                        "blendMode": "NORMAL",
+                                        "type": "SOLID",
+                                        "color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+                                    }
+                                ],
+                                "fills": [
+                                    {
+                                        "blendMode": "NORMAL",
+                                        "type": "SOLID",
+                                        "color": { "r": 1, "g": 1, "b": 1, "a": 1 }
+                                    }
+                                ],
+                                "strokes": [],
+                                "cornerRadius": 10,
+                                "strokeWeight": 1,
+                                "strokeAlign": "INSIDE",
+                                "backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 1 },
+                                "layoutMode": "HORIZONTAL",
+                                "itemSpacing": 10,
+                                "counterAxisAlignItems": "MAX",
+                                "paddingLeft": 54,
+                                "paddingRight": 54,
+                                "paddingTop": 10,
+                                "paddingBottom": 10,
+                                "effects": [],
+                                "componentId": "2:58"
+                            }
+                        ],
+                        "absoluteBoundingBox": { "x": -775, "y": -237, "width": 181, "height": 221 },
+                        "absoluteRenderBounds": { "x": -775, "y": -237, "width": 181, "height": 221 },
+                        "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                        "clipsContent": false,
+                        "background": [
+                            {
+                                "blendMode": "NORMAL",
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 0.9708333611488342,
+                                    "g": 0.9708333611488342,
+                                    "b": 0.9708333611488342,
+                                    "a": 1
+                                }
+                            }
+                        ],
+                        "fills": [
+                            {
+                                "blendMode": "NORMAL",
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 0.9708333611488342,
+                                    "g": 0.9708333611488342,
+                                    "b": 0.9708333611488342,
+                                    "a": 1
+                                }
+                            }
+                        ],
+                        "strokes": [],
+                        "cornerRadius": 24,
+                        "strokeWeight": 1,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 0.9708333611488342,
+                            "g": 0.9708333611488342,
+                            "b": 0.9708333611488342,
+                            "a": 1
+                        },
+                        "layoutMode": "VERTICAL",
+                        "itemSpacing": 16,
+                        "primaryAxisSizingMode": "FIXED",
+                        "paddingLeft": 16,
+                        "paddingRight": 16,
+                        "paddingTop": 16,
+                        "paddingBottom": 16,
+                        "effects": []
+                    },
+                    {
+                        "id": "2:58",
+                        "name": "Button",
+                        "type": "COMPONENT",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            {
+                                "id": "2:57",
+                                "name": "Купить",
+                                "type": "TEXT",
+                                "blendMode": "PASS_THROUGH",
+                                "absoluteBoundingBox": { "x": -488, "y": -55, "width": 41, "height": 15 },
+                                "absoluteRenderBounds": {
+                                    "x": -486.94317626953125,
+                                    "y": -51.727272033691406,
+                                    "width": 38.973358154296875,
+                                    "height": 11.181816101074219
+                                },
+                                "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                                "layoutAlign": "INHERIT",
+                                "layoutGrow": 0,
+                                "fills": [
+                                    {
+                                        "blendMode": "NORMAL",
+                                        "type": "SOLID",
+                                        "color": { "r": 0, "g": 0, "b": 0, "a": 1 }
+                                    }
+                                ],
+                                "strokes": [],
+                                "strokeWeight": 1,
+                                "strokeAlign": "OUTSIDE",
+                                "effects": [],
+                                "characters": "Купить",
+                                "style": {
+                                    "fontFamily": "Inter",
+                                    "fontPostScriptName": null,
+                                    "fontWeight": 400,
+                                    "textAutoResize": "WIDTH_AND_HEIGHT",
+                                    "fontSize": 12,
+                                    "textAlignHorizontal": "LEFT",
+                                    "textAlignVertical": "TOP",
+                                    "letterSpacing": 0,
+                                    "lineHeightPx": 15,
+                                    "lineHeightPercent": 106.66667175292969,
+                                    "lineHeightPercentFontSize": 125,
+                                    "lineHeightUnit": "PIXELS"
+                                },
+                                "layoutVersion": 3,
+                                "characterStyleOverrides": [],
+                                "styleOverrideTable": {},
+                                "lineTypes": ["NONE"],
+                                "lineIndentations": [0]
+                            }
+                        ],
+                        "absoluteBoundingBox": { "x": -542, "y": -65, "width": 149, "height": 35 },
+                        "absoluteRenderBounds": { "x": -542, "y": -65, "width": 149, "height": 35 },
+                        "constraints": { "vertical": "TOP", "horizontal": "LEFT" },
+                        "clipsContent": false,
+                        "background": [
+                            { "blendMode": "NORMAL", "type": "SOLID", "color": { "r": 1, "g": 1, "b": 1, "a": 1 } }
+                        ],
+                        "fills": [
+                            { "blendMode": "NORMAL", "type": "SOLID", "color": { "r": 1, "g": 1, "b": 1, "a": 1 } }
+                        ],
+                        "strokes": [],
+                        "cornerRadius": 10,
+                        "strokeWeight": 1,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": { "r": 1, "g": 1, "b": 1, "a": 1 },
+                        "layoutMode": "HORIZONTAL",
+                        "itemSpacing": 10,
+                        "counterAxisAlignItems": "MAX",
+                        "paddingLeft": 54,
+                        "paddingRight": 54,
+                        "paddingTop": 10,
+                        "paddingBottom": 10,
+                        "effects": []
+                    }
+                ],
+                "backgroundColor": {
+                    "r": 0.9607843160629272,
+                    "g": 0.9607843160629272,
+                    "b": 0.9607843160629272,
+                    "a": 1
+                },
+                "prototypeStartNodeID": null,
+                "flowStartingPoints": [],
+                "prototypeDevice": { "type": "NONE", "rotation": "NONE" }
+            }
+        ]
+    },
+    "components": {
+        "2:55": {
+            "key": "b60c03efde59496da1c668f57eaa8fa0f3dbfc12",
+            "name": "Title",
+            "description": "",
+            "documentationLinks": []
+        },
+        "2:58": {
+            "key": "bcf034841aab25f48f6bcd7ea9a1f11792074baa",
+            "name": "Button",
+            "description": "",
+            "documentationLinks": []
+        },
+        "2:41": {
+            "key": "72c0516e6fd13194d5436138c3b905e736918f4a",
+            "name": "Card",
+            "description": "",
+            "documentationLinks": []
+        }
+    },
+    "componentSets": {},
+    "schemaVersion": 0,
+    "styles": {},
+    "name": "SHRI | 2022",
+    "lastModified": "2022-08-28T09:37:13Z",
+    "thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/7e8bf90e-e98a-4f1e-9b6b-f8a4525e090a?Expires=1662336000&Signature=efKVJf0eseBnmn2svh2R5kpnSuoh6QAtX2RGMyBJXvlEvUNHyXYJ6dHbGiChFyZN1Hs5snMEsb6~72kpSeypSdYbF7L7F3SGRx0LICdjRXvlGJN8cmRd6t7e76E~GY9obawZLI9fQtqv623lycLSwFza69IJvTAvr8YPllXd~l6Nb-8W18BBl7VtS0lRlFFey83oHVVb4BPwBeD49PheJcaIn63eMlBpxoCc8G4wui355A-lyPNM83ehxNX20Hqt0ws8B1Qp5Cnxx4Pvfj6rFQKWNZFjrpb5M1mLSOgbP~iugagMyEi8YlPsaB3HJVnQckCNDbMdLc2qrAGGC-guUA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+    "version": "2269020522",
+    "role": "viewer",
+    "editorType": "figma",
+    "linkAccess": "view"
+}
