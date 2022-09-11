@@ -58,7 +58,7 @@
       <br><br>
       <em>(решил, но не прошло тесты)</em>
     </td>
-    <td align="center"><code>0 / 3</code> ∙ <code>0</code></td>
+    <td align="center"><code>0 / 2</code> ∙ <code>0</code></td>
   </tr>
   
   <tr>
