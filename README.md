@@ -1,5 +1,7 @@
 # Школа Разработки Интерфейсов. Осень 2022. Контест
 
+<sub><strong>Сайт школы:</strong> https://academy.yandex.ru/schools/frontend</sub>
+
 ## Задачи
 
 <table>
