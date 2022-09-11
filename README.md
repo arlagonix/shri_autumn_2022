@@ -13,7 +13,7 @@
   
   <tr>
     <td>1</td>
-    <td>Фоторамки</td>
+    <td><a href="./1%20-%20%D0%A4%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D0%BC%D0%BA%D0%B8">Фоторамки</a></td>
     <td align="center"><img src="https://img.shields.io/badge/-НИЗКАЯ-green?style=flat"></td>
     <td>
       <strong>Темы</strong>: Базовый JavaScript
@@ -31,7 +31,7 @@
   
   <tr>
     <td>2</td>
-    <td>Список&nbsp;товаров</td>
+    <td><a href="./2%20-%20Список%20товаров">Список&nbsp;товаров</a></td>
     <td align="center"><img src="https://img.shields.io/badge/-НИЗКАЯ-green?style=flat"></td>
     <td>
       <strong>Темы</strong>: Верстка, HTML, CSS
@@ -43,7 +43,7 @@
   
   <tr>
     <td>3</td>
-    <td>Figma&nbsp;to&nbsp;HTML</td>
+    <td><a href="./3%20-%20Figma%20to%20HTML">Figma&nbsp;to&nbsp;HTML</a></td>
     <td align="center"><img src="https://img.shields.io/badge/-СРЕДНЯЯ-yellow?style=flat"></td>
     <td>
       <strong>Темы</strong>: Обход дерева, HTML, разбор документации
@@ -61,7 +61,7 @@
   
   <tr>
     <td>4</td>
-    <td>Лабиринт</td>
+    <td><a href="./4%20-%20Лабиринт">Лабиринт</a></td>
     <td align="center"><img src="https://img.shields.io/badge/-СРЕДНЯЯ-yellow?style=flat"></td>
     <td>
       <strong>Темы</strong>: Promise
@@ -80,7 +80,7 @@
   
   <tr>
     <td>5</td>
-    <td>Объявление</td>
+    <td><a href="./5%20-%20Объявление">Объявление</a></td>
     <td align="center"><img src="https://img.shields.io/badge/-СРЕДНЯЯ-yellow?style=flat"></td>
     <td>
       <strong>Темы</strong>: CSS, JS, DOM, расчет сетки
@@ -99,7 +99,7 @@
   
   <tr>
     <td>6</td>
-    <td>Drag&nbsp;and&nbsp;Drop</td>
+    <td><a href="./6%20-%20Drag%20and%20Drop">Drag&nbsp;and&nbsp;Drop</a></td>
     <td align="center"><img src="https://img.shields.io/badge/-СРЕДНЯЯ-yellow?style=flat"></td>
     <td>
       <strong>Темы</strong>: «Оживление» HTML и CSS с помощью JS, работа с DOM-событиями
@@ -111,7 +111,7 @@
   
   <tr>
     <td>7</td>
-    <td>Многопоточные вычисления</td>
+    <td><a href="./7%20-%20Многопоточные%20вычисления">Многопоточные вычисления</a></td>
     <td align="center"><img src="https://img.shields.io/badge/-ВЫСОКАЯ-red?style=flat"></td>
     <td>
       <strong>Темы</strong>: Promise, структуры данных
@@ -129,7 +129,7 @@
   
   <tr>
     <td>8</td>
-    <td>Применить&nbsp;стили</td>
+    <td><a href="./8%20-%20Применить%20стили">Применить&nbsp;стили</a></td>
     <td align="center"><img src="https://img.shields.io/badge/-ВЫСОКАЯ-red?style=flat"></td>
     <td>
       <strong>Темы</strong>: CSS, JS, обход дерева
